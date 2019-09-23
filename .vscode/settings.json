@@ -1,0 +1,38 @@
+{
+  "javascript.validate.enable": false,
+  "standard.autoFixOnSave": true,
+  "files.autoSave": "onWindowChange",
+  "editor.tabSize": 2,
+  "files.exclude": {
+      "**/.git": true,
+      "**/.svn": true,
+      "**/.hg": true,
+      "**/CVS": true,
+      "**/.DS_Store": true,
+      "vendor": true
+  },
+  "standard.usePackageJson": true,
+  "standard.validate": [
+      {
+          "language": "javascript",
+          "autoFix": true
+      },
+      {
+          "language": "javascriptreact",
+          "autoFix": true
+      },
+      {
+          "language": "typescriptreact",
+          "autoFix": true
+      },
+      {
+          "language": "typescript",
+          "autoFix": true
+      }
+  ],
+  "editor.codeActionsOnSave": {
+      "source.fixAll.tslint": true
+  },
+"solidity.compileUsingRemoteVersion": "v0.5.7-nightly.2019.3.26+commit.d079cdbf",
+"go.formatTool": "goimports"
+}
