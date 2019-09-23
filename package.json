@@ -21,7 +21,7 @@
     ]
   },
   "scripts": {
-    "clean": "lerna run clean && lerna clean && yarn cache clean && yarn && sudo rm -rf $GOPATH/pkg && go get",
+    "clean": "lerna run clean && lerna clean && yarn cache clean && yarn",
     "commit": "git-cz",
     "build": "lerna run build --scope @sammccord/monowepo.services.* --include-filtered-dependencies",
     "build:packages": "lerna run build --scope @sammccord/monowepo.packages.* --parallel",
